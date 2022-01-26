@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/backgroundpic">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Estimatorsqfeet" >
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Plot Length"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/txt_len"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_len"
+        android:id="@+id/plotlength"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="number"
+        android:hint="20"
+        android:textColorHint="#808080"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Plot Width"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/plotlength"
+        android:textColor="@color/white"
+        android:id="@+id/txt_wid"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_wid"
+        android:id="@+id/plotwidth"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="225"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Number of Floors"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/plotwidth"
+        android:textColor="@color/white"
+        android:id="@+id/txt_floor"
+        />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_floor"
+        android:id="@+id/floor"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="2"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        />
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsquarecalculate"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/floor"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

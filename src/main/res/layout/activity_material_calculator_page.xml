@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/backgroundpic">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".MaterialCalculatorPage" >
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Number of Brick's"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/txt_no"
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/txt_no"
+                android:id="@+id/brick_cost"
+                android:gravity="center_horizontal|center_vertical"
+                android:inputType="number"
+                android:hint="200"
+                android:textColorHint="#808080"
+                />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter number of 50KG Cement Bag"
+
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/brick_cost"
+                android:textColor="@color/white"
+                android:id="@+id/txt_cement"
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/txt_cement"
+                android:id="@+id/cement_cost"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="10"
+                android:inputType="number"
+                android:textColorHint="#808080"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Iron Rod weight in KG"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/cement_cost"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/txt_iron"
+                />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/black"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/txt_iron"
+                android:id="@+id/iron_cost"
+                android:inputType="number"
+                android:hint="20"
+                android:textColorHint="#808080"
+
+                />
+
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Sand in Ft's"
+                android:textSize="17dp"
+                android:layout_below="@id/iron_cost"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/txt_sand"
+                />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/txt_sand"
+                android:id="@+id/sand_cost"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="300"
+                android:inputType="number"
+                android:textColorHint="#808080"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Bajri in Ft's"
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/sand_cost"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:id="@+id/txt_bajri"
+                />
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/black"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/txt_bajri"
+                android:id="@+id/bajri_cost"
+                android:inputType="number"
+                android:hint="500"
+                android:textColorHint="#808080"
+                />
+
+
+
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_cost_done"
+                android:text="Done"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+                android:layout_below="@id/bajri_cost"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"
+
+                />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/backgroundpic">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".EstimatorMarla" >
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Plot Size in Marla"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/txt_no"
+        />
+    <EditText
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_no"
+        android:id="@+id/marla"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="number"
+        android:hint="Marla"
+        android:textColorHint="#808080"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Calculation Type"
+        android:textSize="17dp"
+        android:layout_below="@+id/marla"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/txt_st"
+        />
+
+    <Spinner
+        android:layout_centerInParent="true"
+        android:id="@+id/spinnercal"
+        android:layout_below="@+id/txt_st"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Total Portions"
+        android:textSize="17dp"
+        android:layout_below="@+id/spinnercal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/txt_flo"
+        />
+
+    <Spinner
+        android:layout_centerInParent="true"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/txt_flo"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btngetmarla"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/spinner"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

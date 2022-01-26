@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "909905986307",
+    "firebase_url": "https://home-planner-3b410-default-rtdb.firebaseio.com",
+    "project_id": "home-planner-3b410",
+    "storage_bucket": "home-planner-3b410.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909905986307:android:4bf0707e7fec0efe811f36",
+        "android_client_info": {
+          "package_name": "com.builder.onlineestimater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909905986307-4r97bdh173tufkjhltd2qlphhg5c1vte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-3cPeVJub94wB3AY3MkRh2h81DzsQn0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909905986307-4r97bdh173tufkjhltd2qlphhg5c1vte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

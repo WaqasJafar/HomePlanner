@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/part"
+
+    android:background="@drawable/border_ui"
+    android:layout_marginTop="5dp">
+<!--    <ImageView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/heart"-->
+<!--        android:layout_alignParentRight="true"/>-->
+    <ImageView
+        android:layout_centerVertical="true"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/contractoricon"
+        android:id="@+id/c_icon"
+        android:foregroundGravity="center_vertical"
+        />
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:paddingBottom="10dp"
+    android:layout_toRightOf="@+id/c_icon">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#EB0C0C0C"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#EB0C0C0C"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number: "
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#EB0C0C0C"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/number"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#EB0C0C0C"
+            />
+    </LinearLayout>
+
+<!--    -->
+<!--    <TextView-->
+
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/number"-->
+<!--        android:textSize="18dp"-->
+<!--        android:layout_toRightOf="@+id/c_icon"-->
+<!--        android:fontFamily="sans-serif-medium"-->
+<!--        android:textColor="#EB0C0C0C"-->
+<!--        />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#EB0C0C0C"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#EB0C0C0C"
+            />
+    </LinearLayout>
+
+
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/email"-->
+<!--        android:textColor="#F00C0C0C"-->
+<!--        android:textSize="15dp"-->
+<!--        />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City: "
+            android:textSize="15dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#EB0C0C0C"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/city"
+            android:textSize="13dp"
+            android:layout_toRightOf="@+id/c_icon"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#EB0C0C0C"
+            />
+    </LinearLayout>
+
+<!--    -->
+<!--    <TextView-->
+<!--      android:layout_marginTop="20dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/city"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_toRightOf="@+id/c_icon"-->
+<!--        android:textSize="15dp"-->
+<!--        />-->
+
+</LinearLayout>
+
+</RelativeLayout>

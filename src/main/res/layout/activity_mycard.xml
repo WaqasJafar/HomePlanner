@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Mycard">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="Your Card"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ordertxt"
+        android:text="Your Place Order"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/orderportion">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No of Bricks:"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order not Placed"
+            android:id="@+id/brick"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No of Cement Bags:"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order not Placed"
+            android:id="@+id/cement"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sand in Ft's :"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order not Placed"
+            android:id="@+id/sand"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iron Rod in KG"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order not Placed"
+            android:id="@+id/ironrod"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bajri in Ft's :"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order not Placed"
+            android:id="@+id/bajri"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order not Placed"
+            android:id="@+id/totalprice"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-light"
+            />
+    </LinearLayout>
+
+<Button
+    android:layout_marginTop="20dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MY Dashboard"
+    android:id="@+id/btnmain"
+    />
+
+
+</LinearLayout>

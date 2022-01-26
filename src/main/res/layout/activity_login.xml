@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:background="@drawable/backgroundpic">
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/applogo"
+                android:id="@+id/logo"
+                />
+            <TextView
+                android:layout_below="@+id/logo"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login to your account"
+                android:fontFamily="sans-serif"
+                android:textSize="24dp"
+                android:id="@+id/title"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:inputType="number"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/title"
+                android:id="@+id/u_number"
+                android:maxLength="11"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Type Mobile Number"
+                android:textColorHint="#808080"
+                />
+
+
+
+            <EditText
+                android:layout_marginTop="40dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="@color/black"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/u_number"
+                android:id="@+id/u_pasword"
+                android:inputType="textPassword"
+                android:hint="Type Pasword"
+                android:textColorHint="#808080"
+                />
+
+
+            <Button
+                android:layout_marginTop="50dp"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"
+
+                android:layout_below="@id/u_pasword"
+                android:layout_centerInParent="true"
+                />
+
+
+                <TextView
+                    android:layout_marginTop="40dp"
+                    android:layout_below="@+id/login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up or Register ?"
+                    android:id="@+id/register"
+                    android:textColor="@color/white"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif"
+                    android:textSize="14dp"
+                    />
+
+
+<!--            <TextView-->
+<!--                android:layout_marginTop="50dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="New Register?"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:id="@+id/new_register"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:layout_below="@+id/login"-->
+<!--                />-->
+
+        </RelativeLayout>
+    </ScrollView>

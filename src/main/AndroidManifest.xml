@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.builder.onlineestimater">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HouseEstimator">
+        <activity android:name=".Order_Detail"></activity>
+        <activity android:name=".User_OrderPage" />
+        <activity android:name=".MobileNumber" />
+        <activity android:name=".Mycard" />
+        <activity android:name=".AddToCard" />
+        <activity android:name=".StorePage" />
+        <activity android:name=".ContractorProfileEdit" />
+        <activity android:name=".Dashbourd_Of_Contractor" />
+        <activity android:name=".All_Users" />
+        <activity android:name=".PriceOfMaterialCalculatorPage" />
+        <activity android:name=".MaterialCalculatorPage" />
+        <activity android:name=".ratingdialog" />
+        <activity android:name=".Ratingpage" />
+        <activity android:name=".ContractorDetails" />
+        <activity android:name=".Contractordashbourd" />
+        <activity android:name=".inputsecoundfloor" />
+        <activity android:name=".inputfirstfloor" />
+        <activity android:name=".inputgroundfloor" />
+        <activity android:name=".Priceofallmaterial" />
+        <activity android:name=".MaterialCalculator" />
+        <activity android:name=".secoundfloor" />
+        <activity android:name=".firstfloor" />
+        <activity android:name=".GroundFloor" />
+        <activity android:name=".AdminAddContractor" />
+        <activity android:name=".AdminMaterial" />
+        <activity android:name=".AdminDashbourd" />
+        <activity android:name=".Contractor" />
+        <activity android:name=".Login" />
+        <activity android:name=".MaterialPrice" />
+        <activity android:name=".BuildingStructure" />
+        <activity android:name=".Estimatorsqfeet" />
+        <activity android:name=".EstimatorMarla" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+    </application>
+
+</manifest>

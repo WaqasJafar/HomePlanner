@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/backgroundpic">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/floortxt"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/squarecalculate"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Floor Height"
+            android:textSize="15sp"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_edittext"
+            android:id="@+id/floorheight"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room'1"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+
+                />
+            <Button
+                android:id="@+id/roomdecrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/roominteger_number"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/roomincrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Width"
+                android:id="@+id/roomwidth"
+                android:inputType="number"
+
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="|"
+                android:textColorHint="@color/white"
+
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Length"
+                android:id="@+id/roomlength"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room'2"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+
+                />
+            <Button
+                android:id="@+id/roomdecrease2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/roominteger_number2"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/roomincrease2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: "
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Width"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:id="@+id/roomwidth2"
+                android:inputType="number"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="|"
+                android:textColorHint="@color/white"
+
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Length"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/roomlength2"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room'3"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+
+                />
+            <Button
+                android:id="@+id/roomdecrease3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/roominteger_number3"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/roomincrease3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Width"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/roomwidth3"
+                android:inputType="number"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="|"
+                android:textColorHint="@color/white"
+
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Length"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:id="@+id/roomlength3"
+                android:inputType="number"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitchen's"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+
+
+                />
+            <Button
+                android:id="@+id/kitchendecrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:inputType="number"
+                android:id="@+id/kitcheninteger_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/kitchenincrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Width"
+                android:inputType="number"
+                android:id="@+id/kitchenwidth"
+                />
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="|"
+                android:textColorHint="@color/white"
+                />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Length"
+                android:id="@+id/kitchenlength"
+                android:inputType="number"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TV Lounge"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+
+                />
+            <Button
+                android:id="@+id/tvdecrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:id="@+id/tvinteger_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/tvincrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Width"
+                android:inputType="number"
+                android:id="@+id/tvwidth"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="|"
+                android:textColor="@color/black"
+                />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Length"
+                android:id="@+id/tvlength"
+                android:inputType="number"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BathRoom's"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+
+                />
+            <Button
+                android:id="@+id/bathroomdecrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:id="@+id/bathroominteger_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/bathroomincrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Width"
+                android:inputType="number"
+                android:id="@+id/bathroomwidth"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="|"
+                android:textColor="@color/white"
+                />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Length"
+                android:id="@+id/bathroomlength"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garage"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+
+                />
+            <Button
+                android:id="@+id/garagedecrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:id="@+id/garageinteger_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/garageincrease"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Size: "
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Width"
+                android:inputType="number"
+                android:id="@+id/garagewidth"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="|"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                />
+            <EditText
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Length"
+                android:id="@+id/garagelength"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estimate"
+            android:id="@+id/estimate"
+            />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:enabled="false"
+            android:id="@+id/btnafterestimate"
+            android:text="Next" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/red"
+            android:id="@+id/alertestimate"
+            />
+
+    </LinearLayout>
+</ScrollView>

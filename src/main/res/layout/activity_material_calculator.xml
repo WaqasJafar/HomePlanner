@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/backgroundpic">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MaterialCalculator" >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bricks "
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/txt_len"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_len"
+        android:id="@+id/brick"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="number"
+        android:hint="20"
+        android:textColorHint="#808080"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Cement Bags of (50 KG)"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/brick"
+        android:textColor="@color/white"
+        android:id="@+id/txt_wid"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_wid"
+        android:id="@+id/cement"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="225"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Sand in Ft's"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/cement"
+        android:textColor="@color/white"
+        android:id="@+id/txt_floor"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_floor"
+        android:id="@+id/sand"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="2"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Iron Rod in kG's"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/sand"
+        android:textColor="@color/white"
+        android:id="@+id/txt_road"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_road"
+        android:id="@+id/ironroad"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="2"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        />
+
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bajri in feet's"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ironroad"
+        android:textColor="@color/white"
+        android:id="@+id/txt_bajri"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_bajri"
+        android:id="@+id/bajri"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="2"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        />
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnprice"
+        android:text="Calculate Price"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/bajri"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

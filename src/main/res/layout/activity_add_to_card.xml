@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/backgroundpic">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".AddToCard" >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price of total Bricks in RS "
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/txt_len"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_len"
+        android:id="@+id/brickprice"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price of total Cement Bags of (50 KG) in RS"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/brickprice"
+        android:textColor="@color/white"
+        android:id="@+id/txt_wid"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_wid"
+        android:id="@+id/cementprice"
+        android:gravity="center_horizontal|center_vertical"
+
+        />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price of total Sand in Rs"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/cementprice"
+        android:textColor="@color/white"
+        android:id="@+id/txt_floor"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_floor"
+        android:id="@+id/sandprice"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price of total Iron Road in Rs"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/sandprice"
+        android:textColor="@color/white"
+        android:id="@+id/txt_iron"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_iron"
+        android:id="@+id/ironrod"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price of total Bajri in Rs"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/ironrod"
+        android:textColor="@color/white"
+        android:id="@+id/txt_bajri"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_bajri"
+        android:id="@+id/bajri"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price in Rs"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/bajri"
+        android:textColor="@color/white"
+        android:id="@+id/txt_total"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:padding="5dip"
+        android:background="@drawable/rounded_edittext"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_total"
+        android:id="@+id/totalprice"
+        android:gravity="center_horizontal|center_vertical"
+        />
+
+
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnback"
+        android:text="Confirm"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@id/totalprice"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>
